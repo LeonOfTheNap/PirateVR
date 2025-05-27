@@ -22,7 +22,6 @@ MonoBehaviour:
   m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
-  m_optimizeMultiviewRenderRegions: 0
   m_foveatedRenderingApi: 0
 --- !u!114 &-8906147608213077591
 MonoBehaviour:
@@ -409,7 +408,6 @@ MonoBehaviour:
   m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
-  m_optimizeMultiviewRenderRegions: 0
   m_foveatedRenderingApi: 0
 --- !u!114 &-6891678581416427940
 MonoBehaviour:
@@ -845,22 +843,22 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 1443452708213354362}
-  - {fileID: -8749980634715080836}
-  - {fileID: -1276894210230670667}
+  - {fileID: 8221564594354640495}
+  - {fileID: -1557233674024107270}
+  - {fileID: 4893829345954421791}
   - {fileID: -3657424226901309741}
-  - {fileID: 5047315830286589360}
-  - {fileID: 6504682016904032715}
-  - {fileID: 5007098057516315081}
-  - {fileID: 1727173055597128861}
-  - {fileID: -8732650259347650135}
+  - {fileID: -4478006660784508864}
+  - {fileID: -6081641041439107477}
+  - {fileID: 32361891232910083}
+  - {fileID: -34596358968032513}
+  - {fileID: -5941725581135416239}
   - {fileID: -7436348794661272015}
   - {fileID: -4314466618941312080}
-  - {fileID: -2513858183220632965}
-  - {fileID: 5447152813868908602}
-  - {fileID: -8316650401159007347}
+  - {fileID: 1507748248788215057}
+  - {fileID: 6841333374066517713}
+  - {fileID: -4454024988132797082}
   - {fileID: -8895518590110429109}
-  - {fileID: -4731438336562001402}
+  - {fileID: 4451366187881382638}
   - {fileID: 2316775424616146661}
   - {fileID: -5611916350011621528}
   - {fileID: 2143143892077286815}
@@ -872,7 +870,6 @@ MonoBehaviour:
   m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
-  m_optimizeMultiviewRenderRegions: 0
   m_foveatedRenderingApi: 0
 --- !u!114 &-2513858183220632965
 MonoBehaviour:
@@ -1147,7 +1144,6 @@ MonoBehaviour:
   m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
-  m_optimizeMultiviewRenderRegions: 0
   m_foveatedRenderingApi: 0
 --- !u!114 &-34596358968032513
 MonoBehaviour:
@@ -1846,7 +1842,6 @@ MonoBehaviour:
   m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
-  m_optimizeMultiviewRenderRegions: 0
   m_foveatedRenderingApi: 0
 --- !u!114 &4451366187881382638
 MonoBehaviour:
