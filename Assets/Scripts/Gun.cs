@@ -40,7 +40,7 @@ public class GunController : MonoBehaviour
         // Ako prefab ima Rigidbody, dodaj mu brzinu
         if (bullet.TryGetComponent<Rigidbody>(out Rigidbody rb))
         {
-            rb.velocity = muzzlePoint.forward * bulletSpeed;
+            rb.linearVelocity = muzzlePoint.forward * bulletSpeed;
         }
         else
         {
