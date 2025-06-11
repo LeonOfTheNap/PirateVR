@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,19 +7,17 @@ public class GunController : MonoBehaviour
     [Header("Gun Settings")]
     public GameObject bulletPrefab;               // Prefab metka
     public Transform muzzlePoint;                 // Točka sa koje izlazi metak
-    public float bulletSpeed = 20f;               // Početna brzina metka
+    public float bulletSpeed = 30f;               // Početna brzina metka
 
-    [Header("Input")]
-    public InputActionReference shootAction;      // Referenca na akciju “shoot”
+    //[Header("Input")]
+    //public InputActionReference shootAction;      // Referenca na akciju “shoot”
+    
+    [SerializeField]
+    private InputActionReference shootAction;
 
-    private void OnEnable()
+    private void Start()
     {
         shootAction.action.performed += OnShoot;
-    }
-
-    private void OnDisable()
-    {
-        shootAction.action.performed -= OnShoot;
     }
 
     private void OnShoot(InputAction.CallbackContext ctx)
@@ -26,7 +25,12 @@ public class GunController : MonoBehaviour
         Fire();
     }
 
-    private void Fire()
+    private void OnDestroy()
+    {
+        shootAction.action.performed -= OnShoot;
+    }
+
+    public void Fire()
     {
         if (bulletPrefab == null || muzzlePoint == null)
         {

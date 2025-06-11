@@ -43,6 +43,7 @@ public class Health : MonoBehaviour
         if (isPlayer)
         {
             if (_playerHealth == null) _playerHealth = this;
+            if (currentHealth == 0) currentHealth = maxHealth;
             else Debug.LogWarning("Multiple player health instances found. Only one should exist at a time.");
         }
     }
